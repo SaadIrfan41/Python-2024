@@ -1,32 +1,3 @@
-# # while True:
-# #     #  name
-# #     name = input("Please enter your name: ")
-
-# #     # Validate the name input
-# #     is_valid_name = True
-# #     for char in name:
-# #         if not ("a" <= char.lower() <= "z"):
-# #             is_valid_name = False
-# #             break
-
-# #     if not is_valid_name:
-# #         print("Error: Name should contain only letters.")
-# #         continue  # Ask for the name again
-# #     break
-
-# age = int(input("AGE"))
-# # ordinal (numeric) value of a given character
-# print("98" <= "1" <= "97")
-# print(ord("a"))
-# print(ord("b"))
-# print(ord("z"))
-# print("")
-# print(ord("A"))
-# print(ord("B"))
-# print(ord("Z"))
-# print(ord("🙂"))
-
-
 menu = {
     "Burger": ("Main", 10.5),
     "Soup": ("Appetizer", 5.0),
@@ -59,7 +30,3 @@ menu = {
 
 
 # update_price("Salad", 50)
-
-def convert_Celcius_to_Fahrenheit(c: int) -> float:
-    f = c * 1.8 + 32
-    return f
