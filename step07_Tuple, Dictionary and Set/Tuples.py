@@ -1,6 +1,6 @@
 #
 # ? A tuple is an immutable, ordered collection of elements.
-my_tuple = (1, 2, 3, "apple", "banana",)
+my_tuple = (1, 2, 3, "apple", "banana")
 
 # ? Characteristics:
 
